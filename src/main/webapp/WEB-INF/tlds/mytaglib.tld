@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee"
+						xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+						xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+						version="2.0">    
+	  
+	  <tlib-version>1.0</tlib-version>
+	  <short-name>my</short-name>
+                      
+	  <function>
+			<name>isNumber</name>
+			<function-class>eltaglib.MyTagLib</function-class>
+			<function-signature>
+				boolean isNumber(java.lang.String)				
+			</function-signature>
+	  </function>
+	  <function>
+			<name>getGender</name>
+			<function-class>eltaglib.MyTagLib</function-class>
+			<function-signature>
+				java.lang.String getGender(java.lang.String)				
+			</function-signature>
+	  </function>
+	  <function>
+			<name>isUser</name>
+			<function-class>eltaglib.MyTagLib</function-class>
+			<function-signature>
+				boolean isUser(jakarta.servlet.ServletContext,java.lang.String,java.lang.String)				
+			</function-signature>
+	  </function>
+	  
+	  <function>
+			<name>findAll</name>
+			<function-class>eltaglib.MyTagLib</function-class>
+			<function-signature>
+				java.util.List findAll(jakarta.servlet.ServletContext,java.lang.String,java.lang.String)				
+			</function-signature>
+	  </function>
+	  
+
+</taglib>

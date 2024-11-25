@@ -1,4 +1,4 @@
-## 🧩 프로젝트 주제: JSP 기반 회원제 게시판
+🧩 프로젝트 주제: **JSP 기반 회원제 게시판**
 
 ## 🎯 기술 스택
  - 백엔드: **JSP (Java Server Pages), Servlet**
